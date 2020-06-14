@@ -433,12 +433,12 @@ body {
   overflow: hidden; }
 
 .material.step1 {
-  transition: all 1.5s 0s ease;
+  transition: all 1s 0s ease-out;
   opacity: 1;
   transform: translate(0, 0); }
 
 .material.step2 {
-  transition: all 1.5s 0s ease;
+  transition: all 0.6s 0s ease;
   height: 1px; }
 
 .material.step3 {
@@ -447,11 +447,11 @@ body {
   width: 100%; }
 
 .material.step4 {
-  transition: all 1.5s 0s ease;
+  transition: all .6s 0s ease;
   transform: rotate(90deg); }
 
 .material.step5 {
-  transition: all 1.5s 0s ease;
+  transition: all 2s 0s ease;
   height: 100vw; }
 
 .material.away {
