@@ -1,0 +1,130 @@
+.sp {
+  display: none !important;
+}
+
+.pc {
+  display: block !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 75% !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'メイリオ', 'Meiryo', sans-serif;
+  color: #000000;
+  word-break: break-all;
+  -webkit-text-size-adjust: 100%;
+}
+
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+a {
+  color: #1d3994;
+  text-decoration: underline;
+}
+
+img,
+svg {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+
+p {
+  line-height: 1.75;
+  margin-top: 1em;
+}
+
+button,
+input[type=text],
+input[type=email],
+input[type=submit],
+input[type=password],
+input[type=number],
+input[type=time],
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0;
+  border: none;
+  font-family: "メイリオ", "meyrio", sans-serif;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+input::placeholder {
+  color: #bbb;
+}
+
+input:-ms-input-placeholder {
+  color: #bbb;
+}
+
+input::-ms-input-placeholder {
+  color: #bbb;
+}
+
+textarea::placeholder {
+  color: #bbb;
+}
+
+textarea:-ms-input-placeholder {
+  color: #bbb;
+}
+
+textarea::-ms-input-placeholder {
+  color: #bbb;
+}
+
+input[type=button] {
+  border: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+input[type=button]:hover {
+  cursor: pointer;
+}
+
+textarea {
+  padding: 5px 10px;
+  width: 100%;
+  border: 1px solid #B5B5B5;
+  max-width: 100%;
+}
+
+select {
+  font-size: 1.4rem;
+  padding: 0;
+  width: 100%;
+  border: 1px solid #B5B5B5;
+  text-align: left;
+  background-color: #fff;
+  line-height: 2.5em;
+  height: 2.5em;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type="number"],
+input[type="time"] {
+  padding: 5px 10px;
+  font-size: 1.4rem;
+  width: 100%;
+  border: 1px solid #B5B5B5;
+}

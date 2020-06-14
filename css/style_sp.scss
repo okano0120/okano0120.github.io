@@ -1,0 +1,154 @@
+.sp {
+  display: block !important;
+}
+
+.pc {
+  display: none !important;
+}
+
+.top-view {
+  .top-view_shadow {
+    .operate.d-none {
+      display: none;
+    }
+
+    .operate {
+      display: flex;
+      flex-direction: column;
+
+      div#modal {
+        .modal-content {
+          .service-items-box {
+            .service-items {
+              padding: 0;
+              width: 100%;
+              flex-direction: column;
+
+              .service-item {
+                width: 100%;
+                padding: 0;
+                margin-bottom: 20px;
+              }
+            }
+          }
+
+          .about-box {
+            flex-direction: column;
+
+            .image-area {
+              width: 100%;
+              margin-bottom: 10vmin;
+
+              p.catch-copy {
+                left: 0%;
+                top: 85%;
+                line-height: 9vmin;
+
+                span {
+                  font-size: 4.3vmin;
+                  padding: .5em;
+                }
+              }
+            }
+
+            .text-area {
+              width: 100%;
+              padding: 0;
+            }
+          }
+
+          .recruit-box {
+            display: flex;
+            flex-direction: column;
+            color: white;
+
+            div.recruit-item {
+              flex: 1;
+              padding: 0;
+
+              .title-area {
+                text-align: center;
+                margin-bottom: 3em;
+
+                .alpha {
+                  font-size: 1.4em;
+                  letter-spacing: 1px;
+                  margin-bottom: 5px;
+                }
+              }
+
+              .table-area {
+                table {
+                  width: 100%;
+                  margin-bottom: 5em;
+
+                  tbody {
+                    tr {
+                      th {
+                        width: 25%;
+                        text-align: left;
+                        padding: 10px 0;
+                      }
+
+                      td {
+                        width: 75%;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+
+          .company-box {
+            padding: 0;
+
+            table {
+              width: 100%;
+
+              tbody {
+                tr {
+                  th {
+                    width: 96%;
+                    display: block;
+
+                    padding: 10px 2%;
+                    text-align: left;
+                  }
+
+                  td {
+                    width: 96%;
+                    display: block;
+                    padding: 10px 2%;
+                    text-align: left;
+                    margin-bottom: 10px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.top-view {
+  background-image: url(../images/topview_photo_sp.jpg);
+  background-size: 140%;
+
+  .top-view_shadow {
+    div.to-view {
+      img {
+        width: 80%;
+        margin-bottom: 8px;
+        margin-bottom: 0px;
+      }
+
+      p {
+        width: 80%;
+        font-size: .9em;
+      }
+    }
+  }
+}
