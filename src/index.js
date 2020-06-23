@@ -33,6 +33,7 @@ app = {
     $('.commet .commet-box').one('transitionend', function (e) {
       if (e.originalEvent.timeStamp - app.lastAnimation > 500) {
         setTimeout(() => {
+          $('.top-view').addClass('with_bk')
           $('.operate').removeClass('d-none')
           $('.commet .commet-box').addClass('away')
           $('.material').addClass('away')
@@ -52,6 +53,7 @@ app = {
         }, 700)
       }
     })
+
     $('.operate .buttons-box ul li').click(function () {
       $('#modal').addClass('ready')
       $('.section-content').removeClass('open')

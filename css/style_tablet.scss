@@ -1,5 +1,9 @@
-.top-view {
+
+.top-view.with_bk {
   background-image: url(../images/topview_photo_tablet.jpg);
+  background-size: 130%;
+}
+.top-view {
   .top-view_shadow {
     div {
       img {
@@ -8,8 +12,15 @@
       }
       p {
         font-size: 1em;
-        width: 40%;
       }
     }
   }
+}
+
+.material.step4 {
+  transform: rotate(180deg);
+}
+
+.material.step5 {
+  height: 100vh;
 }

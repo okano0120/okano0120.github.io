@@ -133,9 +133,11 @@
   }
 }
 
-.top-view {
+.top-view.with_bk {
   background-image: url(../images/topview_photo_sp.jpg);
-  background-size: 140%;
+  background-size: 160%;
+}
+.top-view {
 
   .top-view_shadow {
     div.to-view {
@@ -152,3 +154,4 @@
     }
   }
 }
+
